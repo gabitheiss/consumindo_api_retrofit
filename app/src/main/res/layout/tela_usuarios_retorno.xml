@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+
+    <TextView
+        android:id="@+id/idId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        app:layout_constraintTop_toBottomOf="@+id/idId" />
+
+    <TextView
+        android:id="@+id/idUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Username"
+        app:layout_constraintTop_toBottomOf="@+id/idEmail" />
+
+    <TextView
+        android:id="@+id/idPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@+id/idUsername" />
+
+    <TextView
+        android:id="@+id/idFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Firstname"
+        app:layout_constraintTop_toBottomOf="@+id/idPassword" />
+
+    <TextView
+        android:id="@+id/idLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Lastname"
+        app:layout_constraintTop_toBottomOf="@+id/idFirstname" />
+
+    <TextView
+        android:id="@+id/idCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="City"
+        app:layout_constraintTop_toBottomOf="@+id/idLastname" />
+
+    <TextView
+        android:id="@+id/idStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Street"
+        app:layout_constraintTop_toBottomOf="@+id/idCity" />
+
+    <TextView
+        android:id="@+id/idNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Number"
+        app:layout_constraintTop_toBottomOf="@+id/idStreet" />
+
+    <TextView
+        android:id="@+id/idZipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Zipcode"
+        app:layout_constraintTop_toBottomOf="@+id/idNumber" />
+
+    <TextView
+        android:id="@+id/idLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Latitude"
+        app:layout_constraintTop_toBottomOf="@+id/idZipcode" />
+
+    <TextView
+        android:id="@+id/idLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Longitude"
+        app:layout_constraintTop_toBottomOf="@+id/idLatitude" />
+
+    <TextView
+        android:id="@+id/idPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Phone"
+        app:layout_constraintTop_toBottomOf="@+id/idLongitude" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.12"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
